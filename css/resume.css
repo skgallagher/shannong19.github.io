@@ -101,8 +101,12 @@ p.lead {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: vertical;
+    -ms-box-orient: vertical;
     -webkit-box-direction: normal;
+    -moz-box-direction: normal;
+    -moz-box-orient: vertical;
     -ms-flex-direction: column;
+    -ms-box-direction: column;
     flex-direction: column;
     width: 17rem;
     height: 100vh;
@@ -118,6 +122,9 @@ p.lead {
     max-width: 10rem;
     max-height: 10rem;
     border: 0.5rem solid rgba(255, 255, 255, 0.2);
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -ms-box-align: center;
   }
   #sideNav .navbar-collapse {
     display: -webkit-box;
